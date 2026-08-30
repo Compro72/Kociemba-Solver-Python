@@ -22,11 +22,11 @@ This project is a Python implementation of Kociemba's two-phase algorithm for so
 
 ---
 
-## Technical Description
+## Cube Format
 
 [Official Kociemba's Two-Phase Algorithm Description](https://kociemba.org/cube.htm)
 
-The core parts of this project implement the two-phase algorithm that is described in detail in the link above. The 3x3x3 Rubik's cube can be represented by a string of 54 character (6 faces * 9 facelets/face = 54 facelets). Each facelet is represented by a character from ["R", "B", "Y", "O", "G", "W"] representing the facelet's colour. The order of faces is URFDLB.
+The core parts of this project implement the two-phase algorithm that is described in detail in the link above. The 3x3x3 Rubik's cube can be represented by a string of 54 character (6 faces * 9 facelets/face = 54 facelets). Each facelet is represented by a character from ["R", "B", "Y", "O", "G", "W"] representing the facelet's colour. The order of faces is URFDLB. This is also the format the main program expects the user to enter.
 
 ```
              +---+---+---+
@@ -52,12 +52,13 @@ The core parts of this project implement the two-phase algorithm that is describ
 
 ---
 
-## Future Improvements
+## Java Port
 
-* **:** 
+This solver was ported to Java for execution speed. Additionally, more features were added like move tables and a unified table generation class.
+[The Java solver can be found here]([https://kociemba.org/cube.htm](https://github.com/Compro72/Kociemba-Solver-Java))
 
 ---
 
 ## How to Run
 1. Clone this repository or download the code.
-2. 
+2. Run `src/main.py` and enter the cube code.
