@@ -28,7 +28,7 @@ This project is a Python implementation of Kociemba's two-phase algorithm for so
 
 The core parts of this project implement the two-phase algorithm that is described in detail in the link above. The 3x3x3 Rubik's cube can be represented by a string of 54 character (6 faces * 9 facelets/face = 54 facelets). Each facelet is represented by a character from ["R", "B", "Y", "O", "G", "W"] representing the facelet's colour. The order of faces is URFDLB.
 
-`
+'''
              +---+---+---+
              | 53| 52| 51|
              +---+---+---+
@@ -48,7 +48,7 @@ The core parts of this project implement the two-phase algorithm that is describ
              |---+---+---|
              | 24| 25| 26|
              +---+---+---+
-`
+'''
 
 ---
 
