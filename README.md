@@ -4,12 +4,6 @@ This project is a Python implementation of Kociemba's two-phase algorithm for so
 
 ---
 
-## Demo
-
-![Kociemba Example](main.png)
-
----
-
 ## Features
 
 - **Table Generator:** The `src/table_generation` folder features the table generation scripts for all 6 cube abstractions. Additionally, it also contains scripts to generate combined pruning tables.
