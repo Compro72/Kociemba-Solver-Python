@@ -26,6 +26,8 @@ This project is a Python implementation of Kociemba's two-phase algorithm for so
 
 [Official Kociemba's Two-Phase Algorithm Description](https://kociemba.org/cube.htm)
 
+The core parts of this project implement the two-phase algorithm that is described in detail in the link above. 
+
 ---
 
 ## Future Improvements
