@@ -18,12 +18,13 @@ This project is a Python implementation of Kociemba's two-phase algorithm for so
 - **Coordinates:** The file `state_index.py` has functions that convert abstractions into numbers. These are called coordinates in the original two-phase algorithm description.
 - **Cubes Moves:** The file `cube_moves.py` contains functions that turn the given cube state. It also includes turning abstractions.
 - **Heuristics:** The file `heuristic_eval.py` contains functions that return the heuristic value of the state given. This is used in the IDA* algorithm.
+- **Solver:** The file `solver.py` contains main IDA* search algorithm that uses all the above feature to solve the input cube.
 
 ---
 
 ## Technical Description
 
-
+[Official Kociemba's Two-Phase Algorithm Description](https://kociemba.org/cube.htm)
 
 ---
 
